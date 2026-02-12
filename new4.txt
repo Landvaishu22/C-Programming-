@@ -1,0 +1,11 @@
+#include <stdio.h>
+int main() {
+int a;
+printf("enter a number:\n");
+scanf("%d",&a);
+int lower=a>='0';
+int upper=a<='5';
+int res=lower&&upper;
+    printf("the %d is in number %d",a,res);
+    return 0;
+}
