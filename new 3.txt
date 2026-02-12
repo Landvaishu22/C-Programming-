@@ -1,0 +1,11 @@
+#include <stdio.h>
+int main() {
+    char a;
+    printf("enter the alphabet:\n");
+    scanf("%c",&a);
+int lower=a>='A';
+int upper=a<='z';
+int res=lower&&upper;
+    printf("the %d is in alphabet %d",a,res);
+    return 0;
+}
